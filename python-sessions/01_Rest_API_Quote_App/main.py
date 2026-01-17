@@ -1,1 +1,5 @@
-print("hello world")
+import requests
+
+response = requests.get()
+response.status_code
+
