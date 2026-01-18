@@ -18,7 +18,7 @@ The core objective of this lab is to build a documented history of technical gro
 ## Lab Roadmap (Project Index)
 This lab is organized by "Development Sessions." Each folder contains source code, unit tests, and a dedicated Systems-Architect README that explains the "Why" behind the technical decisions.
 
-| Session | Title | Key Learning Objective | Status |
+| Session | Title                                        | Key Learning Objective                               | Status      |
 |--------|-----------------------------------------------|------------------------------------------------------|-------------|
 | **01** | [Python-Data-Engine](./01_Python_Data_Engine) | Data Parsing, Virtual Envs, and requirements.txt     | 📅 Upcoming |
 | **02** | [Java-OOP-Core](./02_Java_OOP_Core)           | Inheritance, Polymorphism, and Maven Lifecycle       | 📅 Upcoming |
