@@ -6,6 +6,7 @@ This repository serves as my centralized environment for mastering high-level pr
 Rather than just a collection of code snippets, this lab is a chronological record of my proficiency in modern software engineering—bridging the gap between raw syntax and production-ready architecture.
 
 Also note, this is where I will work on my knowledge depth both in personal projects and Udemy course work. I will add READMEs and Learning.txt for my thinking, challenges I face, decisions to "Why" I made specific changes or discoveries, and anything related to my engineering growth.
+
 ---
 
 ## Mission & Intentions
