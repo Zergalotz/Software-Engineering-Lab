@@ -22,9 +22,9 @@ This lab is organized by "Development Sessions." Each folder contains source cod
 
 | Session | Title                                                         | Key Learning Objective                               | Status         |
 |---------|---------------------------------------------------------------|------------------------------------------------------|----------------|
-| **01**  | [Rest API Development](./python-sessions/01_Rest_API_Response)| API, hitting endpoints, requests module, parameters  | ** In-progress |
+| **01**  | [Rest API Development](./python-sessions/01_Rest_API_Response)| API, hitting endpoints, requests module, parameters  | ** Complete       |
 | **02**  | [Python-Data-Engine](./01_Python_Data_Engine)                 | Data Parsing, Virtual Envs, and requirements.txt     | 📅 Upcoming    |
-| **03**  | [Java-OOP-Core](./02_Java_OOP_Core)                           | Inheritance, Polymorphism, and Maven Lifecycle       | 📅 Upcoming    |
+| **03**  | [Java OOP Core](./java-sessions/03_Java_OOP_Core)             | Inheritance, Polymorphism, and Maven Lifecycle       | 📅 Upcoming    |
 | **04**  | **Multithreaded Systems**                                     | Concurrency, Locks, and Race Condition Mitigation    | 📅 Upcoming    |
 | **05**  | **API Integration**                                           | RESTful Services & JSON Schema Validation            | 📅 Upcoming    |
 
