@@ -8,5 +8,7 @@ response.raise_for_status()
 # now we have the formatted data we can log and access
 response_data = response.json()
 print(f"Geolocation of ip: {response_data["ip"]}")
-print(f"GSeolocation of country name: {response_data["country_name"]}")
+print(f"Geolocation of country name: {response_data["country_name"]}")
+print(f"Longitude: {response_data["longitude"]}")
+print(f"Latitude: {response_data["latitude"]}")
 
