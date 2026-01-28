@@ -1,6 +1,6 @@
 APIs
 Application. Programming. Interface.
-
+API we are using for this session = https://www.ip2location.io/ip2location-documentation?ref=freepublicapis.com
 Summary:
 An API, is a set of commands, functions, protocols, and objects that engineers can use to create software or interact with an external systems. 
 Some examples of external system would be a ecommerce web page creating an customer orders, backend application using storing and pulling data from
@@ -25,7 +25,7 @@ Knowing key:value pairing tools would be important because each language will ha
 
 For python you would need import request library and have some knowledge dictionaries and Json would be very helpful.
 
-from ./src/main.py --> ref(01):[01/27/26 - Tues - 6:39 ]
+from ./src/main.py --> ref(01):[01/27/26 - Tues - 6:39 PM CST]
 
     if your request hit the endpoint per the api documentation you will get a 200 response back i.e <Response [200]>. If it was wrong or could hit it then
     you would see another message and code. Reference python library request documentation and API docs for what the specific codes mean. 
@@ -38,4 +38,22 @@ Answer: This is a great cases for adding, try - catch, for error handling or in 
 We can build out logic to print a specific message or route to specific page based on the response. It ensure we have a more "graceful" handling 
 so that the client and understand what happened without just seeing there page crash.
 
-Now, when working with resquest module, there is a built-in method that handles the code messages 
+Now, when working with resquest module, there is a built-in method that handles the code messages for errors. This way we don't need to write out 
+several conditional if/else statements. But if you need specific customization then feel free to use a conditional if/else statement.
+
+One final note for this learning session. API also have parameters you can provide in order to get specific information. Before if you just hit the api and 
+not provide any specific parameters it will just provide the data based on the request/response. 
+For example,
+    What longitude and latitude is Texas? What is the longitude and latitude for texas/conroe_water_utility/sensor01?
+    the state would be the parameter. Not that not all api's except parameter(s), also there are some parameters are that required and some are optional.
+
+Point of struggle in learning: ref(02):[01/27/26 - Tues - 11:02 PM CST]
+    - the python requests module, it has the params keyword, where you can provide a dictionary of key value pairs that are additional arguments. 
+    - how do you get it to work when you are working with a pre-built API endpoint?
+        * You can use the ? before your params key value pairs are added. 
+
+How I over came the struggle: ref(02):[01/27/26 - Tues - 11:02 PM CST]
+    - I used Gemini to provide me official documented python modules sources.
+    - Gemini, output results was = https://requests.readthedocs.io/en/latest/user/quickstart/#passing-parameters-in-urls
+    - I crtl+f and entired parameters
+    - Then I read up and reviewed examples of how to add parameters to a url for the API parameters. 
