@@ -1,0 +1,41 @@
+APIs
+Application. Programming. Interface.
+
+Summary:
+An API, is a set of commands, functions, protocols, and objects that engineers can use to create software or interact with an external systems. 
+Some examples of external system would be a ecommerce web page creating an customer orders, backend application using storing and pulling data from
+a timeserires database about water pressure system, and many other different types of applications or projects.
+
+your frontend web or electronic device | the API | external or backend system 
+
+Endpoint    --> is like a location or an address. // the Endpoint is more then likely a url 
+API Request --> there are some requests that would need authentication while there are others that are not needed to authenticate due to be very simple
+
+Question: What are cases we would need to use APIs or related protocols? 
+Answer: We need them for any company tht wants to stream data into a compiled location. This could include storing utility data from a electical meter 
+or a water meter. There are cases when you want to track a customers order online from purchase to delievered based on tracking data. Banking information
+where you want to keep track of customer transactions for end of the year tax forms.
+
+There are different types of protocols, everything from MQTT = Message Queuing Telemetry Transport, WebSocket, gRPC, SOAP = Simple Object Access Protocol
+and more. Some protocols are used to communicate with machines (m2m) while others are used for web and backend applications for businesses (b2b).
+
+Question: what possible development tools would be helpful to understand?
+Answer: having knowledge of python dictionaries and their syntax and JSON formatting. In the case of JavaScript the understanding of our objects syntax. 
+Knowing key:value pairing tools would be important because each language will have its own variation of this format. 
+
+For python you would need import request library and have some knowledge dictionaries and Json would be very helpful.
+
+from ./src/main.py --> ref(01):[01/27/26 - Tues - 6:39 ]
+
+    if your request hit the endpoint per the api documentation you will get a 200 response back i.e <Response [200]>. If it was wrong or could hit it then
+    you would see another message and code. Reference python library request documentation and API docs for what the specific codes mean. 
+    Note. if your request was 200, it doesn't mean you will see the data purely from the response value but only the response code. 
+
+    general code meanings = 1xx: hold on, 2xx: here you go, 3xx: go away, 4xx: your screwed up, 5xx: backend screwed up
+
+Question: what if we get a non-successful code back? What should we do?
+Answer: This is a great cases for adding, try - catch, for error handling or in this cases if we get a different response status other then 200. 
+We can build out logic to print a specific message or route to specific page based on the response. It ensure we have a more "graceful" handling 
+so that the client and understand what happened without just seeing there page crash.
+
+Now, when working with resquest module, there is a built-in method that handles the code messages 
