@@ -12,3 +12,12 @@ print(f"Geolocation of country name: {response_data["country_name"]}")
 print(f"Longitude: {response_data["longitude"]}")
 print(f"Latitude: {response_data["latitude"]}")
 
+# for parameters using a python dictionary would be valuable here.
+data_format = "json"
+ip = "172.56.61.44"
+parameters = {"ip":ip,"format":data_format}
+response = requests.get(f"https://api.ip2location.io/?", params=parameters) #ref(02):[01/27/26 - Tues - 11:02 PM CST]
+print(f"Passing parameters to api: {response.json()}")
+
+# point of improvement: need to create some methods/functions to remove redundant code to adhere to DRY principle. [01/27/26 - Tues - 11:06 PM CST]
+# see if there is a date format module in python to remove manual reference data details.
