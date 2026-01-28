@@ -1,0 +1,11 @@
+Session 3 will be for showcasing the core OOP and Maven lifecycle for java refer to the main repo README for more details
+
+Topics:
+- inheritance
+- polymorphism
+- encapsulation
+- abstraction
+- maven lifecycle
+
+Note: For the pruposes of learning I will keep everything within the Main.java file. I achknowledge this is not best practice, it is for learning and showcasing.
+The following Java session will adhere to best practices.
